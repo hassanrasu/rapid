@@ -305,7 +305,13 @@ section {
     background: linear-gradient(0deg,rgba(16,31,55,0.05) 0%, rgba(16,31,55,0) 80%);
 }
 
-
+.faq_bg_alt{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: 0;
+    bottom: 0
+}
 
 
 
