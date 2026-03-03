@@ -222,8 +222,21 @@ section {
     font-weight: 900;
     font-size: 70px
 }
-
-
+.icon-teaser{
+    padding: 30px;
+    border: 1px solid #E5E7EB;
+    display: block;
+    background: #fff;
+    height: calc(100% - 30px);
+    margin-top: 30px;
+    font-size: 16px
+}
+.icon-teaser img {
+    margin: 0 auto;
+    max-width: 260px;
+    height: 70px;
+    margin-bottom: 30px
+}
 
 
 
