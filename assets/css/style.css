@@ -254,7 +254,12 @@ section {
     background: #fff;
     height: calc(100% - 30px);
     margin-top: 30px;
-    font-size: 16px
+    font-size: 16px;
+    position: relative;
+    top: 0
+}
+.icon-teaser:hover{
+    top: -5px
 }
 .icon-teaser img {
     margin: 0 auto;
@@ -535,7 +540,12 @@ section {
         height: 65%
     }
     .icon-teaser{
-        padding: 20px
+        padding: 20px;
+        position: relative;
+        top: 0
+    }
+    .icon-teaser:hover{
+        top: -5px
     }
     .call-to-action{
         padding: 50px 30px;
