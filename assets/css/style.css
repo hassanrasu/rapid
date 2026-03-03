@@ -417,11 +417,11 @@ section {
     position: absolute;
     content: "";
     left: 50%;
-    transform: translateX(-50%);
-    top: 0;
+    transform: translate(-50% , -50%);
+    top: 50%;
     width: 1px;
-    height: 100%;
-    background: #000
+    height: 90%;
+    background: #E5E7EB
 }
 .timeline-wrapper .item{
     position: relative
@@ -430,7 +430,7 @@ section {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background: #000;
+    background: #0F172A;
     position: absolute;
     color: #fff;
     display: flex;
@@ -442,7 +442,7 @@ section {
     transition: all 0.4s
 }
 .timeline-wrapper .item:hover .num{
-    background: red
+    background: #DA0000
 }
 
 
