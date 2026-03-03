@@ -2,10 +2,10 @@ body {
     margin: 0;
     padding: 0;
     font-size: 18px;
-     font-family: "Roboto", sans-serif;
-    color: #242424;
+     font-family: 'Mona Sans';
+    color: #475569;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 28px;
 }
 
 html,
@@ -60,7 +60,7 @@ h5,
 h6 {
     color: #242424;
     margin-bottom: 12px;
-     font-family: 'Roboto Condensed';
+     font-family: 'Mona Sans';
 }
 
 h1,
@@ -71,31 +71,31 @@ h1,
 
 h2,
 .h2 {
-    font-size: 50px;
+    font-size: 40px;
     line-height: 115%;
 }
 
 h3,
 .h3 {
-    font-size: 40px;
+    font-size: 30px;
     line-height: 115%;
 }
 
 h4,
 .h4 {
-    font-size: 30px;
+    font-size: 24px;
     line-height: 120%;
 }
 
 h5,
 .h5 {
-    font-size: 24px;
+    font-size: 20px;
     line-height: 115%;
 }
 
 h6,
 .h6 {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 115%;
 }
 
@@ -161,6 +161,24 @@ section {
 }
 .cta-btn:hover{
     color: rgba(255, 255, 255, 0.8)
+}
+.fw_700{
+    font-weight: 700
+}
+.fs_16{
+    font-size: 16px
+}
+.fw_500{
+    font-weight: 500
+}
+.col_red{
+    color: #DA0000
+}
+.section-heading{
+    margin-bottom: 30px
+}
+.text_light{
+    color: #475569
 }
 /*Write CSS From Here*/
 .header-area{
@@ -237,7 +255,15 @@ section {
     height: 70px;
     margin-bottom: 30px
 }
-
+.about-bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    z-index: -1
+}
 
 
 
