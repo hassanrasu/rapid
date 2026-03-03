@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-size: 18px;
-     font-family: 'Mona Sans';
+    font-family: 'Mona Sans';
     color: #475569;
     font-weight: 400;
     line-height: 28px;
@@ -60,7 +60,7 @@ h5,
 h6 {
     color: #242424;
     margin-bottom: 12px;
-     font-family: 'Mona Sans';
+    font-family: 'Mona Sans';
 }
 
 h1,
@@ -132,97 +132,120 @@ section {
 .container.smalls {
     max-width: 1080px
 }
-.text_italic{
+
+.text_italic {
     font-style: italic
 }
-.pt-40{
+
+.pt-40 {
     padding-top: 40px
 }
 
-.relative{
+.relative {
     position: relative
 }
-.z-99{
+
+.z-99 {
     position: relative;
     z-index: 9
 }
-.text_white{
+
+.text_white {
     color: #fff
 }
-.text_upper{
-     text-transform: uppercase
+
+.text_upper {
+    text-transform: uppercase
 }
-.cta-btn{
-   display: inline-flex;
+
+.cta-btn {
+    display: inline-flex;
     background: #DA0000;
     color: #fff;
     padding: 16px 40px
 }
-.cta-btn:hover{
+
+.cta-btn:hover {
     color: #fff;
     background: #ff0101;
 }
-.fw_700{
+
+.fw_700 {
     font-weight: 700
 }
-.fs_16{
+
+.fs_16 {
     font-size: 16px
 }
-.fw_500{
+
+.fw_500 {
     font-weight: 500
 }
-.col_red{
+
+.col_red {
     color: #DA0000
 }
-.section-heading{
+
+.section-heading {
     margin-bottom: 30px
 }
-.text_light{
+
+.text_light {
     color: #475569
 }
-.pb_150{
+
+.pb_150 {
     padding-bottom: 150px
 }
-.pt_150{
+
+.pt_150 {
     padding-top: 150px
 }
 
 /*Write CSS From Here*/
-.header-area{
+.header-area {
     position: absolute;
     z-index: 9;
     width: 100%
 }
-.header-inn{
+
+.header-inn {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-top: 30px
 }
-.header-menu ul{
+
+.header-menu ul {
     padding: 0;
     margin: 0;
     list-style: none
 }
-.header-menu ul li{
+
+.header-menu ul li {
     display: inline-block;
     margin-right: 32px
 }
-.header-menu ul li:last-child{
+
+.header-menu ul li:last-child {
     margin-right: 0
 }
-.header-menu ul li a{
+
+.header-menu ul li a {
     color: #BEBEBE;
     font-weight: 500;
     font-size: 18px
 }
-.header-menu ul li a:hover{
+
+.header-menu ul li a:hover {
     color: #fff
 }
+
 .hero-area {
     height: 650px
 }
-.hero-area::before{
+
+.hero-area::before {
     position: absolute;
     content: "";
     width: 100%;
@@ -232,7 +255,8 @@ section {
     background: rgba(17, 17, 17, 0.9);
     z-index: 1
 }
-.hero-video-bg{
+
+.hero-video-bg {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -240,14 +264,17 @@ section {
     top: 0;
     object-fit: cover
 }
-.hero-text{
+
+.hero-text {
     padding-top: 170px
 }
-.hero-heading{
+
+.hero-heading {
     font-weight: 900;
     font-size: 70px
 }
-.icon-teaser{
+
+.icon-teaser {
     padding: 30px;
     border: 1px solid #E5E7EB;
     display: block;
@@ -258,16 +285,19 @@ section {
     position: relative;
     top: 0
 }
-.icon-teaser:hover{
+
+.icon-teaser:hover {
     top: -5px
 }
+
 .icon-teaser img {
     margin: 0 auto;
     max-width: 260px;
     height: 70px;
     margin-bottom: 30px
 }
-.about-bg{
+
+.about-bg {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -276,11 +306,13 @@ section {
     left: 0;
     z-index: -1
 }
+
 .text-box.style1 {
     background: #fff;
     padding: 50px
 }
-.stats-img-bg{
+
+.stats-img-bg {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -289,29 +321,35 @@ section {
     top: 0;
     z-index: -1
 }
-.text-box.style1 .count{
+
+.text-box.style1 .count {
     color: #DA0000;
     font-weight: 700;
     font-size: 60px
 }
-.text-box.style1 .text{
+
+.text-box.style1 .text {
     color: #78879B;
     font-weight: 700
 }
-.content-text.style3 .accordion-item{
+
+.content-text.style3 .accordion-item {
     border: 1px solid #E5E7EB;
-    padding:24px;
+    padding: 24px;
     margin-top: 8px;
     border-radius: 8px
 }
-.content-text.style3 .title{
+
+.content-text.style3 .title {
     margin-bottom: 0;
     font-size: 20px;
     font-weight: 700
 }
-.content-text.style3 .accordion-body{
+
+.content-text.style3 .accordion-body {
     margin-top: 30px
 }
+
 .faqs-shape {
     position: absolute;
     top: -100px;
@@ -320,11 +358,13 @@ section {
     width: 100%;
     height: 300px;
 }
-.faqs_accordion .accordion-button{
+
+.faqs_accordion .accordion-button {
     display: flex;
     align-items: center;
     justify-content: space-between
 }
+
 .faqs_accordion .accordion-button .plus-minus {
     position: absolute;
     top: -7px;
@@ -334,6 +374,7 @@ section {
     border-radius: 50%;
     background: #DA0000;
 }
+
 .faqs_accordion .accordion-button .plus-minus::before {
     position: absolute;
     content: "";
@@ -344,6 +385,7 @@ section {
     background: #fff;
     transform: translate(-50%, -50%);
 }
+
 .faqs_accordion .accordion-button .plus-minus::after {
     position: absolute;
     content: "";
@@ -354,11 +396,13 @@ section {
     background: #fff;
     transform: translate(-50%, -50%);
 }
-.faqs_accordion  .accordion-button:not(.collapsed) .plus-minus::before {
+
+.faqs_accordion .accordion-button:not(.collapsed) .plus-minus::before {
     opacity: 0;
     background: #fff
 }
-.footer-cta-shape{
+
+.footer-cta-shape {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -369,69 +413,83 @@ section {
     object-position: bottom
 }
 
-.content-text.footer-cta .heading{
+.content-text.footer-cta .heading {
     font-weight: 900;
     font-size: 60px
 }
-.footer-area{
+
+.footer-area {
     background: #0A0F1A;
     padding-top: 70px;
     border-top: 1px solid rgba(69, 73, 81, 0.5)
 }
-.footer-top{
+
+.footer-top {
     display: flex;
     align-items: center;
     justify-content: space-between;
-     border-bottom: 1px solid rgba(69, 73, 81, 0.5);
+    border-bottom: 1px solid rgba(69, 73, 81, 0.5);
     padding-bottom: 70px
 }
-.footer-top .footer-text{
+
+.footer-top .footer-text {
     width: 45%
 }
-.footer-end .copyright{
+
+.footer-end .copyright {
     font-size: 14px;
     color: rgba(255, 255, 255, 0.5)
 }
-.footer-end .copyright .link{
+
+.footer-end .copyright .link {
     color: rgba(255, 255, 255, 0.5)
 }
-.footer-end{
+
+.footer-end {
     padding: 16px 0
 }
+
 .footer-end ul {
     padding: 0;
     margin: 0;
     list-style: none
 }
-.footer-end ul li{
+
+.footer-end ul li {
     display: inline-block;
     color: rgba(255, 255, 255, 0.5);
     margin-right: 24px
 }
-.footer-menu-link{
-      color: rgba(255, 255, 255, 0.5);
+
+.footer-menu-link {
+    color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
 }
-.footer-menu-link:hover{
+
+.footer-menu-link:hover {
     color: #fff
 }
-.timeline-wrapper{
+
+.timeline-wrapper {
     position: relative
 }
-.timeline-wrapper::before{
+
+.timeline-wrapper::before {
     position: absolute;
     content: "";
     left: 50%;
-    transform: translate(-50% , -50%);
+    transform: translate(-50%, -50%);
     top: 50%;
     width: 1px;
     height: 90%;
     background: #E5E7EB
 }
-.timeline-wrapper .item{
+
+.timeline-wrapper .item {
     position: relative
 }
-.timeline-wrapper .item .num{
+
+.timeline-wrapper .item .num {
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -443,10 +501,11 @@ section {
     justify-content: center;
     left: 50%;
     top: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     transition: all 0.4s
 }
-.timeline-wrapper .item:hover .num{
+
+.timeline-wrapper .item:hover .num {
     background: #DA0000
 }
 
@@ -456,168 +515,103 @@ section {
 @media(max-width:1400px) {}
 
 @media(max-width:991px) {
-    br{
+    br {
         display: none
     }
-     .faqs_accordion{
+
+    .faqs_accordion {
         padding: 0 30px
     }
-     .footer-logo {
+
+    .footer-logo {
         margin-bottom: 0
     }
+
     .footer-logo img {
-    width: 180px;
-}
-    .footer-top-left{
+        width: 180px;
+    }
+
+    .footer-top-left {
         display: flex;
         justify-content: space-between;
         align-items: center;
         margin-bottom: 50px
     }
-    .footer-info-text{
+
+    .footer-info-text {
         margin-left: 30px
     }
-    .footer-info-text .link{
+
+    .footer-info-text .link {
         font-size: 16px
     }
-    .footer-top-right{
+
+    .footer-top-right {
         text-align: center
     }
-    .footer-top-right .cta-btn{
+
+    .footer-top-right .cta-btn {
         font-size: 15px;
         padding: 12px 30px
     }
-    .footer-end .copyright, .footer-menu-link{
+
+    .footer-end .copyright,
+    .footer-menu-link {
         font-size: 14px
     }
-    .hero-video-inner{
+
+    .hero-video-inner {
         padding: 20px
     }
-    .hero-video-box{
+
+    .hero-video-box {
         height: 480px
     }
 }
 
 @media(max-width:767px) {
-   
-    br{
+
+    h2,
+    .h2 {
+        font-size: 32px;
+        line-height: 115%;
+    }
+
+    br {
         display: none
     }
-    .hero-logo img{
-        width: 200px;
+
+    .hero-heading {
+        font-weight: 900;
+        font-size: 40px;
     }
-    .hero-logo{
-        margin-bottom: 20px
+
+    .hero-area {
+        height: auto
     }
-    .hero-text .h2{
-        font-size: 40px
+
+    .hero-text {
+        padding-top: 70px;
     }
-    .hero-video-box{
-        margin-top: 30px;
-        height: 320px
+    .content-image{
+        margin-bottom: 24px
     }
-    .hero-video-inner{
-        display: block!important;
-        text-align: center;
-        
-    }
-    .hero-video-text{
-        width: 100%;
-        margin-top: 20px
-    }
-    .hero-video-action img{
-        margin: 0 auto;
-        
-    }
-    .hero-video-text .h3{
-        font-size: 30px;
-    }
-    .hero-video-text{
-        font-weight: 300;
-        font-size: 16px
-    }
-    .hero-video-shape{
-        height: 65%
-    }
-    .icon-teaser{
-        padding: 20px;
-        position: relative;
-        top: 0
-    }
-    .icon-teaser:hover{
-        top: -5px
-    }
-    .call-to-action{
-        padding: 50px 30px;
-        font-size: 16px
-    }
-    .call-to-action .heading{
-        font-size: 32px
-    }
-    .content-text.style1 .heading{
-        font-size: 32px;
-    }
-    .faqs_accordion{
-        margin-top: 30px!important;
-        padding: 0 50px
-    }
-    .accordion-body{
-        font-size: 16px
-    }
-    .faqs_accordion .accordion-button{
-        font-size: 18px
-    }
-   
-      .hero-video-action img {
-    width: 60px;
-    height: 60px;
-}
     
-    .hero-video-inner{
-        padding: 30px 20px
-    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
 }
 
 @media(max-width:575px) {
     
-    .call-to-action{
-        padding: 30px 20px
-    }
-    .faqs_accordion{
-        padding: 0 15px
-    }
-    
-    .footer-top-left{
-        display: block;
-        text-align: center
-    }
-    .footer-logo {
-        display: inline-block;
-        margin-bottom: 30px
-    }
-    .footer-logo img{
-        margin: 0 auto
-    }
-    
-    .footer-info-text{
-        text-align: left;
-        margin-left: 0
-    }
-    .footer-end{
-        display: block!important;
-        text-align: center
-    }
-    .footer-end ul{
-        margin-top: 10px
-    }
-    .hero-video-box{
-        height: 300px
-    }
-    .hero-video-image{
-        height: 100%;
-        width: 100%;
-        object-fit: cover
-    }
 }
