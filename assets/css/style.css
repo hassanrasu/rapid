@@ -154,13 +154,13 @@ section {
 }
 .cta-btn{
    display: inline-flex;
-    background: #AF272A;
-    color: #fff;;
-    border-radius: 10px;
+    background: #DA0000;
+    color: #fff;
     padding: 16px 40px
 }
 .cta-btn:hover{
-    color: rgba(255, 255, 255, 0.8)
+    color: #fff;
+    background: #ff0101;
 }
 .fw_700{
     font-weight: 700
@@ -315,12 +315,62 @@ section {
     width: 100%;
     height: 300px;
 }
+.footer-cta-shape{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    z-index: -9;
+}
 
-
-
-
-
-
+.content-text.footer-cta .heading{
+    font-weight: 900;
+    font-size: 60px
+}
+.footer-area{
+    background: #0A0F1A;
+    padding-top: 70px;
+    border-top: 1px solid #454951
+}
+.footer-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     border-bottom: 1px solid #454951;
+    padding-bottom: 70px
+}
+.footer-top .footer-text{
+    width: 45%
+}
+.footer-end .copyright{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5)
+}
+.footer-end .copyright .link{
+    color: rgba(255, 255, 255, 0.5)
+}
+.footer-end{
+    padding: 16px 0
+}
+.footer-end ul {
+    padding: 0;
+    margin: 0;
+    list-style: none
+}
+.footer-end ul li{
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.5);
+    margin-right: 24px
+}
+.footer-menu-link{
+      color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+}
+.footer-menu-link:hover{
+    color: #fff
+}
 
 
 /*REsponsive*/
