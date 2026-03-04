@@ -69,7 +69,9 @@
             speed: 400
         });  
         
-        
+        AOS.init({
+            duration: 1200
+        });
         
         
         
