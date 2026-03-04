@@ -61,7 +61,7 @@
 
         
         
-        $(".icon-teaser").tilt({
+        $(".card-tilt").tilt({
             scale: 1.01,
             glare: false,
             maxGlare: 0.5,
