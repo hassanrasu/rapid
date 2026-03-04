@@ -62,7 +62,7 @@
         
         
         $(".icon-teaser").tilt({
-            scale: 1.02,
+            scale: 1.01,
             glare: false,
             maxGlare: 0.5,
             easing: "cubic-bezier(.03,.98,.52,.99)",
