@@ -502,11 +502,13 @@ section {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    transition: all 0.4s
+    transition: all 0.2s
 }
 
 .timeline-wrapper .item:hover .num {
-    background: #DA0000
+    background: #DA0000;
+    width: 52px;
+    height: 52px
 }
 
 
@@ -596,11 +598,25 @@ section {
     .content-image{
         margin-bottom: 24px
     }
-    
-    
-    
-    
-    
+    .timeline-wrapper .num{
+        
+    }
+    .timeline-wrapper .text-end{
+        text-align: left!important;
+    }
+    .content-text.style2 .title{
+        font-size: 18px
+    }
+    .content-text.style2{
+        font-size: 14px;
+        line-height: 140%;
+        
+    }
+    .timeline-wrapper .item .num{
+        font-size: 14px;
+        width: 40px;
+        height: 40px;
+    }
     
     
     
@@ -613,5 +629,19 @@ section {
 }
 
 @media(max-width:575px) {
+    
+     .timeline-wrapper .num{
+        display: none!important
+    }
+    .timeline-wrapper::before{
+        display: none
+    }
+    .content-text.style2{
+        margin-bottom: 20px
+    }
+    
+    
+    
+    
     
 }
