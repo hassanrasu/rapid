@@ -2,7 +2,7 @@
     font-family: 'Mona Sans';
     src: url('MonaSans-ExtraBoldItalic.woff2') format('woff2'),
         url('MonaSans-ExtraBoldItalic.woff') format('woff');
-    font-weight: bold;
+    font-weight: 900;
     font-style: italic;
     font-display: swap;
 }
@@ -11,16 +11,25 @@
     font-family: 'Mona Sans';
     src: url('MonaSans-BoldItalic.woff2') format('woff2'),
         url('MonaSans-BoldItalic.woff') format('woff');
-    font-weight: bold;
+    font-weight: 700;
     font-style: italic;
     font-display: swap;
 }
+@font-face {
+    font-family: 'Mona Sans';
+    src: url('MonaSans-Bold.woff2') format('woff2'),
+        url('MonaSans-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
 
 @font-face {
     font-family: 'Mona Sans';
     src: url('MonaSans-ExtraBold.woff2') format('woff2'),
         url('MonaSans-ExtraBold.woff') format('woff');
-    font-weight: bold;
+    font-weight: 900;
     font-style: normal;
     font-display: swap;
 }
@@ -38,7 +47,7 @@
     font-family: 'Mona Sans';
     src: url('MonaSans-Italic.woff2') format('woff2'),
         url('MonaSans-Italic.woff') format('woff');
-    font-weight: normal;
+    font-weight: 400;
     font-style: italic;
     font-display: swap;
 }
@@ -92,7 +101,7 @@
     font-family: 'Mona Sans';
     src: url('MonaSans-Regular.woff2') format('woff2'),
         url('MonaSans-Regular.woff') format('woff');
-    font-weight: normal;
+    font-weight: 400;
     font-style: normal;
     font-display: swap;
 }
@@ -114,67 +123,3 @@
     font-style: italic;
     font-display: swap;
 }
-
-@font-face {
-    font-family: 'Mona Sans Condensed';
-    src: url('MonaSansCondensed-Black.woff2') format('woff2'),
-        url('MonaSansCondensed-Black.woff') format('woff');
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Mona Sans Condensed';
-    src: url('MonaSansCondensed-BlackItalic.woff2') format('woff2'),
-        url('MonaSansCondensed-BlackItalic.woff') format('woff');
-    font-weight: 900;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Mona Sans Condensed';
-    src: url('MonaSansCondensed-Bold.woff2') format('woff2'),
-        url('MonaSansCondensed-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Mona Sans Condensed';
-    src: url('MonaSansCondensed-BoldItalic.woff2') format('woff2'),
-        url('MonaSansCondensed-BoldItalic.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Mona Sans Condensed';
-    src: url('MonaSansCondensed-ExtraBold.woff2') format('woff2'),
-        url('MonaSansCondensed-ExtraBold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Mona Sans Condensed';
-    src: url('MonaSansCondensed-ExtraBoldItalic.woff2') format('woff2'),
-        url('MonaSansCondensed-ExtraBoldItalic.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Mona Sans Condensed';
-    src: url('MonaSansCondensed-ExtraLight.woff2') format('woff2'),
-        url('MonaSansCondensed-ExtraLight.woff') format('woff');
-    font-weight: 200;
-    font-style: normal;
-    font-display: swap;
-}
-
