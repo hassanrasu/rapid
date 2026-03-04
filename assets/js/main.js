@@ -62,3 +62,79 @@
 
     });
 }(jQuery));
+
+document.addEventListener("DOMContentLoaded", () => {
+
+    const counters = document.querySelectorAll(".text-box.style1 .count");
+    if (!counters.length) return;
+
+    const animateCounter = (el) => {
+        const text = el.textContent.trim();
+        if (!text) return;
+
+        const duration = 1500;
+        const startTime = performance.now();
+
+        // ✅ FRACTION (2/10)
+        if (text.includes("/")) {
+            const [num, den] = text.split("/");
+            const target = parseFloat(num);
+            if (isNaN(target)) return;
+
+            const update = (now) => {
+                const progress = Math.min((now-startTime)/duration,1);
+                const value = (progress * target).toFixed(0);
+                el.textContent = value + "/" + den;
+
+                if (progress < 1) requestAnimationFrame(update);
+                else el.textContent = text;
+            };
+            requestAnimationFrame(update);
+            return;
+        }
+
+        // ✅ PREFIX + DECIMAL NUMBER + SUFFIX
+        const match = text.match(/^([^0-9]*)([0-9]*\.?[0-9]+)([^0-9]*)$/);
+        if (!match) return;
+
+        const prefix = match[1];
+        const target = parseFloat(match[2]);
+        const suffix = match[3];
+
+        const isDecimal = match[2].includes(".");
+
+        const update = (now) => {
+            const progress = Math.min((now-startTime)/duration,1);
+            let value = progress * target;
+
+            value = isDecimal
+                ? value.toFixed(1)
+                : Math.floor(value);
+
+            el.textContent = prefix + value + suffix;
+
+            if (progress < 1) requestAnimationFrame(update);
+            else el.textContent = text;
+        };
+
+        requestAnimationFrame(update);
+    };
+
+    if (!("IntersectionObserver" in window)) {
+        counters.forEach(animateCounter);
+        return;
+    }
+
+    const observer = new IntersectionObserver((entries, obs) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                animateCounter(entry.target);
+                obs.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.5 });
+
+    counters.forEach(counter => observer.observe(counter));
+
+});
+
