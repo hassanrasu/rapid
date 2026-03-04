@@ -70,7 +70,10 @@
         });  
         
         AOS.init({
-            duration: 1200
+            duration: 1200,
+            disable: function() {
+      return window.innerWidth < 768;
+    }
         });
         
         
