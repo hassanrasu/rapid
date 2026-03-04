@@ -59,6 +59,20 @@
         $(".mainmenu ul li:has(ul)");
         //Mobile Menu End
 
+        
+        
+        $(".icon-teaser").tilt({
+            scale: 1.02,
+            glare: false,
+            maxGlare: 0.5,
+            easing: "cubic-bezier(.03,.98,.52,.99)",
+            speed: 400
+        });  
+        
+        
+        
+        
+        
 
     });
 }(jQuery));

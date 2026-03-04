@@ -293,11 +293,10 @@ section {
     height: 100%;
     font-size: 16px;
     position: relative;
-    top: 0
 }
-
-.icon-teaser:hover {
-    top: -5px
+.icon-teaser:hover{
+    box-shadow: 0 3px 40px 0 rgba(0, 0, 0, 0.07);
+    border-color: #fff
 }
 
 .icon-teaser img {
