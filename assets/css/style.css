@@ -166,7 +166,10 @@ section {
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 2px;
-    font-size: 14px
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+    text-align: center
 }
 
 .cta-btn:hover {
